@@ -1,11 +1,11 @@
 Package.describe({
-  summary: "A pattern to display application errors to the user",
-  version: "0.2.2",
-  name: "twigatech:errors",
-  description: "A pattern to display application errors to the user",
-  homepage: "https://github.com/twigatech/meteor-errors",
-  author: "Joel Braun <joel.m.braun@gmail.com>",
-  git: "https://github.com/twigatech/meteor-errors.git"
+  summary: "A pattern to display application errors to the user using Foundation Alerts",
+  version: "0.0.1",
+  name: "meloncon:foundation-errors",
+  description: "A pattern to display application errors to the user using Foundation Alerts",
+  homepage: "https://github.com/Meloncon/meteor-foundation-errors",
+  author: "Matt Meloncon <mmeloncon@gmail.com>",
+  git: "https://github.com/Meloncon/meteor-foundation-errors.git"
 });
 
 Package.onUse(function (api, where) {
@@ -17,7 +17,7 @@ Package.onUse(function (api, where) {
 });
 
 Package.onTest(function(api) {
-  api.use('twigatech:errors', 'client');
+  api.use('meloncon:foundation-errors', 'client');
   api.use(['tinytest', 'test-helpers'], 'client');
   api.addFiles('errors_tests.js', 'client');
 });

@@ -5,8 +5,8 @@
 </template>
 
 <template name="meteorError">
-  <div class="alert alert-error alert-danger alert-dismissable">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <div data-alert class="alert-box {{style}} radius">
     {{message}}
+    <a href="#" class="close">&times;</a>
   </div>
 </template>
