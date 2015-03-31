@@ -1,4 +1,4 @@
-# Foundation Errors
+# Foundation Errors  [![Build Status](https://travis-ci.org/Meloncon/meteor-foundation-errors.svg?branch=master)](https://travis-ci.org/Meloncon/meteor-foundation-errors)
 
 Foundation Errors is a Meteor package that provides the same Errors syntax from tmeasday's package 'meteor-errors' and adds in Foundation syntax in place of the common Bootstrap syntax.
 
