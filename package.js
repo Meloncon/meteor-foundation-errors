@@ -3,6 +3,7 @@ Package.describe({
   version: "0.0.1",
   name: "meloncon:foundation-errors",
   description: "A pattern to display application errors to the user using Foundation Alerts",
+  documentation: './README.md',
   homepage: "https://github.com/Meloncon/meteor-foundation-errors",
   author: "Matt Meloncon <mmeloncon@gmail.com>",
   git: "https://github.com/Meloncon/meteor-foundation-errors.git"
