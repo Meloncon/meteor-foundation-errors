@@ -26,4 +26,4 @@ To clear all seen messages:
 	Errors.clearSeen();
 
 ##TODO
-I would like to expand this to cover other Foundation style options, such as 'radius' or 'rounded'. That's why I chose to use an object literal as the second (optional) argument. Feel free to open an issue with other suggestions to implement! Thanks!
+I would like to expand this to cover other Foundation style options, such as 'radius' or 'rounded'. That's why I chose to use an object literal as the second (optional) argument. Depending on interest or need other features may be added too. Feel free to open an issue with other suggestions to implement! Thanks!
