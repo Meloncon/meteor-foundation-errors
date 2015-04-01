@@ -13,9 +13,11 @@ Include the template somewhere in your main HTML file:
 	{{> meteorErrors}}
 
 To throw an error with the default 'info' style from Foundation:
+
 	Errors.throw('This is a test message.');
 
 You may also specify the different styles of Foundation Alerts:
+
 	Errors.throw('Your profile has been updated!', {style: 'success'});
 	Errors.throw('Proceed with caution!', {style: 'warning'});
 	Errors.throw('We will perform a rolling restart in 5 minutes.', {style: 'info'});
@@ -23,6 +25,7 @@ You may also specify the different styles of Foundation Alerts:
 	Errors.throw("It's a friend's birthday!", {style: 'secondary'});
 
 To clear all seen messages:
+
 	Errors.clearSeen();
 
 ##TODO
