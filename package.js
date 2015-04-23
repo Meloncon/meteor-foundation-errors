@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A pattern to display application errors to the user using Foundation Alerts",
-  version: "0.0.1",
+  version: "0.0.2",
   name: "meloncon:foundation-errors",
   description: "A pattern to display application errors to the user using Foundation Alerts",
   documentation: './README.md',
